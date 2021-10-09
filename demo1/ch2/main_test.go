@@ -1,7 +1,7 @@
 package ch2
 
 import (
-	"testdemo/chdemo"
+	"testdemo/demo1/chdemo"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package pkg1
 
 import (
-	"testdemo/demo"
+	"testdemo/demo/demo"
 	"testing"
 )
 
@@ -10,8 +10,4 @@ func TestPkg2(t *testing.T) {
 	for i := 1; i < 10000; i++ {
 		demo.AccessOuter("pkg2", "TestPkg2")
 	}
-}
-
-func TestConsumer(t *testing.T) {
-	demo.Consumer()
 }
