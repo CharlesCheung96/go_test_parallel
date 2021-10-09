@@ -5,7 +5,7 @@
 ```bash
 cd ./demo1
 
-# chdemo Pass --> pkg 内线程级别隔离
+# chdemo Pass --> pkg 内 test-case 线程级别隔离
 go test -race -cover -count=1 ./chdemo
 ```
 next, verify [testflag]():
